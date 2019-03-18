@@ -4,7 +4,7 @@ This was a project for the course MYE035-CSE.UOI - Computational Intelligence du
 
 **Created by:**
 1. Nick Deligiannis
-2. Pashalis Homondozlis
+2. [Paschalis Homondozlis](https://github.com/PaschalisHomondozlis)
 
 
 ## The problem
