@@ -4,7 +4,7 @@
  * ------------------------------------------- *
  *  prof: Aristidis Lykas                      *
  * ------------------------------------------- *
- *  stud#1: Deligiannis Nikos     	       *
+ *  stud#1: Deligiannis Nikos     	           *
  *  stud#2: Homondozlis Paschalis     	       *
  * ------------------------------------------- *
  *  Multilayer Perceptron Implementation       *
