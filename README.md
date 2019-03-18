@@ -45,4 +45,9 @@ There is a problem using the hyperbolic tangent as activation function. If you s
 including the output layer neurons, something that will not provide the proper results since tanh ranges from -1 to +1 and the encoding used was based on the logistic function
 which ranges from 0 to 1.
 
+## Usage
+
+1. Generate the dataset using the "dataset_generation.c" file (compile /w gcc dataset_generation.c).
+2. Compile the "mlp.c" file (compile /w gcc mlp.c -lm)
+3. Run the executable file.
 
