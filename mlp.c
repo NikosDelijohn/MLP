@@ -4,8 +4,8 @@
  * ------------------------------------------- *
  *  prof: Aristidis Lykas                      *
  * ------------------------------------------- *
- *  stud#1: Deligiannis Nikos     - 2681       *
- *  stud#2: Homondozlis Paschalis - 2858       *
+ *  stud#1: Deligiannis Nikos     	       *
+ *  stud#2: Homondozlis Paschalis     	       *
  * ------------------------------------------- *
  *  Multilayer Perceptron Implementation       *
  +---------------------------------------------+
@@ -29,16 +29,16 @@
 #define KYEL  "\x1B[33m"
 
 // MLP Variables
-#define d 	2  	    /* Number of inputs  */
+#define d   2	    /* Number of inputs  */
 #define p   3  	    /* Number of outputs */
-#define n   0.005  /* Learning rate     */
+#define n   0.005   /* Learning rate     */
 #define H   3       /* MLP lvls + output */ 
 #define HH  2       /* MLP hidden lvls 	 */
-#define H1	7  	    /* First Hidden Level neurons  */
-#define H2 	5  	    /* Second Hidden Level neurons */
-#define f   0    	/* Activaction Function: Logistic (f=0), Tanh (f=1) */
-#define L   300  	/* Number of batches to be updated while learning.  */
-#define END -1  	/* Used to determine where the training will stop.  */
+#define H1  7  	    /* First Hidden Level neurons  */
+#define H2  5  	    /* Second Hidden Level neurons */
+#define f   0       /* Activaction Function: Logistic (f=0), Tanh (f=1) */
+#define L   300     /* Number of batches to be updated while learning.  */
+#define END -1      /* Used to determine where the training will stop.  */
 
 #define TOTAL_WEIGHTS  H1*(d+1) + H2*(H1+1) + p*(H2+1)
 #define TOTAL_EPOCHS 5000
@@ -377,7 +377,7 @@ void initialize_network()
 }
 
 /*
- * According to the f (which is defined at line 32) 
+ * According to the f (which is defined at line 39) 
  * the proper function is used by EVERY neuron in the
  * MLP network.
  */
@@ -749,8 +749,8 @@ void main()
 
     free_memory();
 
-    system("gnuplot -p -e \"plot '/home/sovereign/Desktop/NeuralNetwork/final?/wrong.dat'\"");
-    system("gnuplot -p -e \"plot '/home/sovereign/Desktop/NeuralNetwork/final?/correct.dat'\"");
-    system("gnuplot -p -e \"plot '/home/sovereign/Desktop/NeuralNetwork/final?/error.dat'\"");
+    system("gnuplot -p -e \"plot '/<WRONG.DAT FILE PATH HERE>/wrong.dat'\"");
+    system("gnuplot -p -e \"plot '/<CORRECT.DAT FILE PATH HERE>/correct.dat'\"");
+    system("gnuplot -p -e \"plot '/<ERROR.DAT FILE PATH HERE>/error.dat'\"");
 
 }
