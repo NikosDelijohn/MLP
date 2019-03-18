@@ -48,6 +48,20 @@ which ranges from 0 to 1.
 ## Usage
 
 1. Generate the dataset using the "dataset_generation.c" file (compile /w gcc dataset_generation.c).
-2. Compile the "mlp.c" file (compile /w gcc mlp.c -lm)
-3. Run the executable file.
+2. Change the path @ lines 752-754 (on mlp.c) or comment out those lines if you don't wish to use gnuplot for visualisation
+3. Compile the "mlp.c" file (compile /w gcc mlp.c -lm)
+4. Run the executable file.
+
+## Example
+### Results of a run.
+ ![](Images/Execution.png)
+### Visualisation in gnuplot 
+#### Points classified correctly
+ ![](Images/Correct.png)
+#### Points classified wrong
+ ![](Images/Wrong.png)
+#### Square error behavior
+ ![](Images/Square_Error.png)
+
+
 
