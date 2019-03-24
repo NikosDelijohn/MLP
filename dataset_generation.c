@@ -5,7 +5,7 @@
  *  prof: Aristidis Lykas                      *
  * ------------------------------------------- *
  *  stud#1: Deligiannis Nikos          	       *
- *  stud#2: Homondozlis Paschalis 	       *
+ *  stud#2: Homondozlis Paschalis 	           *
  * ------------------------------------------- *
  *  This file, generates 6000 random numbers   *
  *  with half of them inside the rectangle     *
