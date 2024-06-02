@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+- family-names: "Deligiannis"
+  given-names: "Nikolaos"
+- family-names: "Pashalis"
+  given-names: "Homondozlis"
+title: "A Multilayer Perceptron Implementation in ANSI-C"
+version: 1.0
+date-released: 2019-3-19
+url: "https://github.com/NikosDelijohn/MLP"
